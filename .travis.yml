@@ -9,4 +9,4 @@ script:
   - npm test
 
 after_success:
-  - npm run deploy # deployment to github pages
+  - npm run deploy-travis # deployment to github pages
